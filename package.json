@@ -1,7 +1,7 @@
 {
   "name": "Test",
   "description":"test",
-  "version"; "0.0.1",
+  "version": "0.0.1",
   "main": "test.js",
   "scripts":{
     "start": "node test.js"
