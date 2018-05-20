@@ -62,6 +62,8 @@ client.on("message", async message => {
         m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
     }
     if (command === "say") {
+        if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
+            return message.reply("Sorry, you don't have permissions to use this!");
         const sayMessage = args.join(" ");
         message.delete().catch(O_o => { });
         message.channel.send(sayMessage);
