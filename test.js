@@ -106,6 +106,7 @@ client.on("message", async message => {
         await member.ban(reason)
             .catch(error => message.reply(`Sorry ${message.author} I couldn't ban because of : ${error}`));
         message.reply(`${member.user.tag} has been banned by ${message.author.tag} because: ${reason}`);
+        message.channel.send("https://imgur.com/a/a3VlUGR");
     }
 
     if (command === "prune") {
