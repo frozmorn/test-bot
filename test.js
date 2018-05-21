@@ -88,9 +88,11 @@ client.on("message", async message => {
         message.channel.send(message.author.toString() + " had sex with you! " + "http://i2.kym-cdn.com/photos/images/newsfeed/000/932/422/4ad.gif");
     }
     if (command === "lewd") {
-        message.channel.send("https://cdn.discordapp.com/attachments/428619248881893390/447065781734342656/lewd-rkJBa6dwZ..gif");
+        message.channel.send("https://imgur.com/a/Al6iiZD");
     }
-
+    if (command === "quotes") {
+        message.channel.send("https://imgur.com/lMcRxAr");
+    }
 
     if (command === "ban") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
