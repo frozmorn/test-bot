@@ -93,6 +93,9 @@ client.on("message", async message => {
     if (command === "quotes") {
         message.channel.send("https://imgur.com/lMcRxAr");
     }
+    if (command === "math") {
+        message.channel.send("https://imgur.com/a/2dnlZnO");
+    }
 
     if (command === "ban") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
@@ -122,5 +125,4 @@ client.on("message", async message => {
             .catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
     }
 });
-
 client.login(process.env.BOT_TOKEN);
