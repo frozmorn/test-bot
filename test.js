@@ -88,7 +88,7 @@ client.on("message", async message => {
         message.channel.send(message.author.toString() + " had sex with you! " + "http://i2.kym-cdn.com/photos/images/newsfeed/000/932/422/4ad.gif");
     }
     if (command === "lewd") {
-        message.channel.send("https://imgur.com/a/quhisqK");
+        message.channel.send("https://imgur.com/a/UG3G8U5");
     }
     if (command === "quotes") {
         message.channel.send("https://imgur.com/lMcRxAr");
