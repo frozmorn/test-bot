@@ -96,6 +96,9 @@ client.on("message", async message => {
     if (command === "math") {
         message.channel.send("https://imgur.com/a/2dnlZnO");
     }
+    if (command === "life") {
+        message.channel.send("    https://imgur.com/a/3juNo2J");
+    }
 
     if (command === "ban") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
