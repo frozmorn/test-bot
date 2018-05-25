@@ -11,7 +11,7 @@ client.on("message", (message) => {
         message.channel.send("Ayy, lmao!");
     }
     if (message.content === "wat") {
-        message.channel.send("Say what?");
+        message.channel.send("https://imgur.com/a/MUB3UHJ");
     }
     if (message.content === "halo") {
         message.channel.send("Hai " + message.author.toString() + "!");
