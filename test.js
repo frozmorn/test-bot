@@ -88,7 +88,7 @@ client.on("message", async message => {
         message.channel.send(message.author.toString() + " had sex with you! " + "http://i2.kym-cdn.com/photos/images/newsfeed/000/932/422/4ad.gif");
     }
     if (command === "lewd") {
-        message.channel.send("https://imgur.com/a/1RUK5WA");
+        message.channel.send("https://imgur.com/a/quhisqK");
     }
     if (command === "quotes") {
         message.channel.send("https://imgur.com/lMcRxAr");
@@ -97,7 +97,7 @@ client.on("message", async message => {
         message.channel.send("https://imgur.com/a/2dnlZnO");
     }
     if (command === "life") {
-        message.channel.send("    https://imgur.com/a/3juNo2J");
+        message.channel.send("https://imgur.com/a/3juNo2J");
     }
 
     if (command === "ban") {
