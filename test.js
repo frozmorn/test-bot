@@ -99,7 +99,9 @@ client.on("message", async message => {
     if (command === "life") {
         message.channel.send("https://imgur.com/a/3juNo2J");
     }
-
+    if (command === "ngamox") {
+        message.channel.send("https://imgur.com/a/yASmYQg");
+    }
     if (command === "ban") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
             return message.reply("Sorry, you don't have permissions to use this!");
