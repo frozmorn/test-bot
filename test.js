@@ -87,6 +87,10 @@ client.on("message", async message => {
     if (command === "sex") {
         message.channel.send(message.author.toString() + " had sex with you! " + "http://i2.kym-cdn.com/photos/images/newsfeed/000/932/422/4ad.gif");
     }
+    if (command === "hug") {
+        message.channel.send(message.author.toString() + " hugs you <3 ! " + "https://i.imgur.com/UefRSup.gif");
+    }
+  
     if (command === "lewd") {
         message.channel.send("https://imgur.com/a/UG3G8U5");
     }
