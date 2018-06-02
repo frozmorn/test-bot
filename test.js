@@ -48,7 +48,7 @@ client.on("message", (message) => {
         message.channel.send(" https://midorina.s-ul.eu/al9wN6RR");
     }
     if (message.isMentioned(client.user)) {
-        message.reply('Berisik ngentot');
+        message.reply('Nani?');
     }
 });
 client.on("message", async message => {
