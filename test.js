@@ -51,7 +51,8 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.reply(':GWnoneAngryPing:');
+        message.channel.send('https://imgur.com/a/FIKB4xG');
+        message.reply('kenapa sayang?');
     }
 });
 client.on("message", async message => {
