@@ -45,7 +45,10 @@ client.on("message", (message) => {
         message.channel.send("| |       | _");
     }
     if (message.content === "kys") {
-        message.channel.send(" https://midorina.s-ul.eu/al9wN6RR");
+        message.channel.send("https://midorina.s-ul.eu/al9wN6RR");
+    }
+    if (message.content === "kms") {
+        message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
         message.reply('Nani?');
@@ -59,7 +62,7 @@ client.on("message", async message => {
 
     if (command === "ping") {
         const m = await message.channel.send("Ping?");
-        m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
+        m.edit(`Pong! Aku masih hidup kok (｀･ω･)ﾉ☆･ﾟ::ﾟ Latency is ${m.createdTimestamp - message.createdTimestamp}ms`);
     }
     if (command === "say") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
