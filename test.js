@@ -105,6 +105,9 @@ client.on("message", async message => {
     if (command === "quotes") {
         message.channel.send("https://imgur.com/lMcRxAr");
     }
+    if (command === "evade") {
+        message.channel.send(" https://imgur.com/a/YqUiLxK");
+    }
     if (command === "math") {
         message.channel.send("https://imgur.com/a/2dnlZnO");
     }
