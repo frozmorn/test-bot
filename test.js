@@ -47,6 +47,10 @@ client.on("message", (message) => {
     if (message.content === "kys") {
         message.channel.send("https://midorina.s-ul.eu/al9wN6RR");
     }
+   
+    if (message.content === "gelud") {
+        message.channel.send(" https://imgur.com/a/OT0OpMY");
+    }
     if (message.content === "kms") {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
