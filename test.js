@@ -89,7 +89,7 @@ client.on("message", async message => {
 
     }
     if (command === "sex") {
-        message.channel.send(message.author.toString() + " had sex with you! " + "https://imgur.com/a/jynEVKC");
+        message.channel.send(message.author.toString() + " had sex with you! " + "https://media.giphy.com/media/3cXXoxcCQkhhLLIUdd/giphy.gif");
     }
     if (command === "hug") {
         message.channel.send(message.author.toString() + " hugs you <3 ! " + "https://i.imgur.com/UefRSup.gif");
