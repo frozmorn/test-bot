@@ -51,7 +51,7 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.channel.send('https://imgur.com/a/FIKB4xG');
+        message.channel.send('https://imgur.com/a/kLZepwr');
         message.reply('kenapa sayang?');
     }
 });
