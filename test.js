@@ -55,8 +55,7 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.channel.send('https://imgur.com/a/kLZepwr');
-        message.reply('kenapa sayang?');
+        message.channel.send('?');
     }
 });
 client.on("message", async message => {
@@ -93,9 +92,13 @@ client.on("message", async message => {
 
     }
     if (command === "sex") {
+        if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
+        return message.reply("Sorry, you don't have permissions to use this!");
         message.channel.send(message.author.toString() + " had sex with you! " + "https://media.giphy.com/media/3cXXoxcCQkhhLLIUdd/giphy.gif");
     }
     if (command === "hug") {
+        if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
+        return message.reply("Sorry, you don't have permissions to use this!");
         message.channel.send(message.author.toString() + " hugs you <3 ! " + "https://i.imgur.com/UefRSup.gif");
     }
   
