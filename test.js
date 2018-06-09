@@ -55,7 +55,7 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.channel.send('?');
+        message.channel.send('K-kenapa mention aku ? ( 〃．．)');
     }
 });
 client.on("message", async message => {
