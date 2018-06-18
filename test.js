@@ -55,7 +55,7 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.channel.send('K-kenapa mention aku ? ( 〃．．)');
+        message.channel.send('message.author.toString() + Berisik ngentot');
     }
 });
 client.on("message", async message => {
