@@ -29,13 +29,13 @@ client.on("message", (message) => {
         message.channel.send("What's this?");
     }
     if (message.content === "bacod") {
-        message.channel.send("https://imgur.com/a/Ro87Ggi");
+        message.channel.send("https://imgur.com/a/W2y41dm");
     }
     if (message.content === "bacot") {
-        message.channel.send("https://imgur.com/a/Ro87Ggi");
+        message.channel.send("https://imgur.com/a/W2y41dm");
     }
     if (message.content === "bcd") {
-        message.channel.send("https://imgur.com/a/Ro87Ggi");
+        message.channel.send("https://imgur.com/a/W2y41dm");
     }
     if (message.content === "OwO") {
         message.channel.send("What's this?");
