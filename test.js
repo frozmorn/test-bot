@@ -28,6 +28,15 @@ client.on("message", (message) => {
     if (message.content === "owo") {
         message.channel.send("What's this?");
     }
+    if (message.content === "bacod") {
+        message.channel.send("https://imgur.com/a/Ro87Ggi");
+    }
+    if (message.content === "bacot") {
+        message.channel.send("https://imgur.com/a/Ro87Ggi");
+    }
+    if (message.content === "bcd") {
+        message.channel.send("https://imgur.com/a/Ro87Ggi");
+    }
     if (message.content === "OwO") {
         message.channel.send("What's this?");
     }
