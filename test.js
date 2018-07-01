@@ -101,9 +101,7 @@ client.on("message", async message => {
 
     }
     if (command === "sex") {
-        if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
-        return message.reply("Sorry, you don't have permissions to use this!");
-        message.channel.send(message.author.toString() + " had sex with you! " + "https://media.giphy.com/media/3cXXoxcCQkhhLLIUdd/giphy.gif");
+        message.channel.send(message.author.toString() + " had sex with you! " + "https://cdn.discordapp.com/attachments/354591459300868096/462262160756572161/icon_16.gif");
     }
     if (command === "hug") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
