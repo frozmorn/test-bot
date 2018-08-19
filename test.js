@@ -19,6 +19,9 @@ client.on("message", (message) => {
     if (message.content === "karim") {
         message.channel.send("https://imgur.com/a/ILu5S0z");
     }
+    if (message.content === "Karim") {
+        message.channel.send("https://imgur.com/a/ILu5S0z");
+    }
     if (message.content === "Halo") {
         message.channel.send("Hai " + message.author.toString() + "!");
     }
