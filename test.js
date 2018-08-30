@@ -4,7 +4,7 @@ const config = require("./config.json");
 
 client.on("ready", () => {
     console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
-    client.user.setActivity(`DINUS Inside 2019`);
+    client.user.setActivity(`DINUS Inside 2018`);
 });
 client.on("message", (message) => {
     if (message.content === "ayy") {
@@ -70,7 +70,7 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.reply('Berisik ngentot');
+        message.reply('Ada yang bisa saya bantu?');
     }
 });
 client.on("message", async message => {
