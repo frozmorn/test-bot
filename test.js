@@ -19,12 +19,6 @@ client.on("message", (message) => {
     if (message.content === "halo") {
         message.channel.send("Hai " + message.author.toString() + "!");
     }
-    if (message.content === "karim") {
-        message.channel.send("https://imgur.com/a/ILu5S0z");
-    }
-    if (message.content === "Karim") {
-        message.channel.send("https://imgur.com/a/ILu5S0z");
-    }
     if (message.content === "Halo") {
         message.channel.send("Hai " + message.author.toString() + "!");
     }
@@ -36,15 +30,6 @@ client.on("message", (message) => {
     }
     if (message.content === "owo") {
         message.channel.send("What's this?");
-    }
-    if (message.content === "bacod") {
-        message.channel.send("https://ibb.co/jmLU89");
-    }
-    if (message.content === "bacot") {
-        message.channel.send("https://ibb.co/jmLU89");
-    }
-    if (message.content === "bcd") {
-        message.channel.send("https://ibb.co/jmLU89");
     }
     if (message.content === "OwO") {
         message.channel.send("What's this?");
