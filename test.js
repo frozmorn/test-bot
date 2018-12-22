@@ -127,6 +127,9 @@ client.on("message", async message => {
     if (command === "tobat") {
         message.channel.send("https://imgur.com/qym1xmW");
     }
+    if (command === "stats") {
+        message.channel.send("message.content.slice(config.prefix.length).trim().split(/ +/g);");
+    }
     if (command === "ban") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
             return message.reply("Sorry, you don't have permissions to use this!");
