@@ -6,9 +6,12 @@ client.on("ready", () => {
     console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
     client.user.setActivity(`Hide and seek`);
 });
-client.on("message", (message) => {
+client.on("message", (message) => { 
     if (message.content === "ayy") {
         message.channel.send("Ayy, lmao!");
+    }
+    if (message.content === "F") {
+        message.channel.send("https://media1.giphy.com/media/26gR1v0rIDrjSsca4/giphy.gif?fbclid=IwAR0Is3fI64j0ETye4OqFXtyo_5NyMVSVV-VMXKshJGJPTZMwx1ceXiHdeFo");
     }
     if (message.content === "wat") {
         message.channel.send("https://imgur.com/a/MUB3UHJ");
