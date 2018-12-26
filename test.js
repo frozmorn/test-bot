@@ -61,7 +61,7 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.reply('Kontol');
+        message.reply('https://i.imgur.com/CjcQBE6.jpg');
     }
 });
 client.on("message", async message => {
@@ -72,7 +72,7 @@ client.on("message", async message => {
 
     if (command === "ping") {
         const m = await message.channel.send("Ping?");
-        m.edit(`Pong! Aku masih hidup kok (｀･ω･)ﾉ☆･ﾟ::ﾟ Latency is ${m.createdTimestamp - message.createdTimestamp}ms`);
+        m.edit(`Yo ho! I'm still there! , My latency is ${m.createdTimestamp - message.createdTimestamp}ms`);
     }
     if (command === "say") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
@@ -128,7 +128,24 @@ client.on("message", async message => {
         message.channel.send("https://imgur.com/qym1xmW");
     }
     if (command === "stats") {
-        message.channel.send("message.content.slice(config.prefix.length).trim().split(/ +/g);");
+        message.channel.send("Connected to SGP 2931
+Uptime
+693 hours, 53 minutes, 18 seconds
+Shard (Resync)
+158 hours, 49 minutes, 50 seconds
+Guilds
+3 / 7
+(128 Avg Users/Guild)
+Channels
+44,577 / 57,522
+Users
+62 / 72
+Total Commands
+2302
+RAM Usage
+250 MB
+Heap Usage
+70 MB / 207 MB (77.49%)");
     }
     if (command === "ban") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
