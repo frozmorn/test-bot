@@ -61,7 +61,7 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.reply('https://i.imgur.com/CjcQBE6.jpg');
+        message.reply('https://imgur.com/3Bk1Vht');
     }
 });
 client.on("message", async message => {
