@@ -128,24 +128,7 @@ client.on("message", async message => {
         message.channel.send("https://imgur.com/qym1xmW");
     }
     if (command === "stats") {
-        message.channel.send("Connected to SGP 2931
-Uptime
-693 hours, 53 minutes, 18 seconds
-Shard (Resync)
-158 hours, 49 minutes, 50 seconds
-Guilds
-3 / 7
-(128 Avg Users/Guild)
-Channels
-44,577 / 57,522
-Users
-62 / 72
-Total Commands
-2302
-RAM Usage
-250 MB
-Heap Usage
-70 MB / 207 MB (77.49%)");
+        message.channel.send("Connected to SGP 2931 | RAM Usage : 31 / 256MB");
     }
     if (command === "ban") {
         if (!message.member.roles.some(r => ["Admin"].includes(r.name)))
