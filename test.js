@@ -16,7 +16,7 @@ client.on("message", (message) => {
     if (message.content === "wat") {
         message.channel.send("https://imgur.com/a/MUB3UHJ");
     }
-    if (message.content === "mahal") {
+    if (message.content = "mahal") {
         message.reply('Kalo mahal berati target pasaranya bukan kamu :)');
     }
     if (message.content === "no u") {
