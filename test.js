@@ -64,7 +64,7 @@ client.on("message", (message) => {
         message.channel.send("https://imgur.com/a/bk3kd3M");
     }
     if (message.isMentioned(client.user)) {
-        message.reply('https://imgur.com/a/nm9a2av');
+         message.reply('apa tod');
     }
 });
 client.on("message", async message => {
