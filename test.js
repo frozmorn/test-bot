@@ -10,6 +10,12 @@ client.on("message", (message) => {
     if (message.content === "ayy") {
         message.channel.send("Ayy, lmao!");
     }
+    if (message.content === "covid check Indonesia") {
+         message.reply("Ayy, lmao!");
+    }
+    if (message.content === "covid ") {
+        message.channel.send("Ayy, lmao!");
+    }
     if (message.content === "F") {
         message.channel.send("https://media1.giphy.com/media/26gR1v0rIDrjSsca4/giphy.gif?fbclid=IwAR0Is3fI64j0ETye4OqFXtyo_5NyMVSVV-VMXKshJGJPTZMwx1ceXiHdeFo");
     }
